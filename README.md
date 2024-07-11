@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# React Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains tasks aimed at practicing various aspects of React development.
 
-## Available Scripts
+## Task 1: Create a React App to display Hello World
 
-In the project directory, you can run:
+To create a React app displaying "Hello World":
+## Task 2: Add 4 function components
+Create the following function components in the src folder:
+First.js
+Second.js
+Third.js
+Fourth.js
+In each component file, define a basic functional component that renders a simple text or element.
 
-### `npm start`
+Call these components in App.js by importing them and rendering them within the App component.
+## Task 3: Add 4 class components
+Create the following class components in the src folder:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+First1.js
+Second1.js
+Third1.js
+Fourth1.js
+In each component file, define a class component that renders a simple text or element.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Call these components in App.js by importing them and rendering them within the App component.
+## Task 4: Pass props to Student component
+Using function component
+Create a new functional component Student.js in the src folder. This component should accept name, address, and scores as props and render them.
 
-### `npm test`
+In App.js, create variables for name, address, and scores and pass them as props to the Student component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Using class component
+Create a new class component Student1.js in the src folder. This component should accept name, address, and scores as props and render them.
 
-### `npm run build`
+In App.js, create variables for name, address, and scores and pass them as props to the Student1 component.
+## Task 5: Pass props to Display component
+Create a new functional component Display.js in the src folder. This component should accept name and address as props and display them in text boxes (<input> elements).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Implement functionality in Display.js to modify the name and address props using useState.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In App.js, create variables for name and address, and pass them as props to the Display component.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Task 6: Add buttons with onClick events
+In Display.js, add two buttons (<button> elements) labeled "Hello" and "Bye".
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Implement onClick event handlers for these buttons to display "Hello" and "Bye" messages when clicked.
